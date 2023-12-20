@@ -8,7 +8,7 @@ startTwitchTranscoding:
     attempts: ", hat %{count} Versuche gebraucht"
 stop:
     success: Stream erfolgreich gestoppt
-    raid: Der Stream wurde gestoppt und hat %{display_channel} geraidet. Bitte den Link https://twitch.tv/%{channel} folgen
+    raid: Der Stream wurde gestoppt und es wurde %{display_channel} geraidet. Bitte den Link https://twitch.tv/%{channel} folgen
     error: "Fehler: %{error}"
 switch:
     noParams: Keine Szene angegeben
@@ -83,7 +83,7 @@ scene:
     error: Keine %{scene}-Szene angegeben
 collection:
     noParams: Keine Szenen-Sammlung angegeben
-    notFound: "Fehler: Es wurde keine Szenen-Sammlung mit dem Namen %{collection} gefunden."
+    notFound: Fehler: Es wurde keine Szenen-Sammlung mit dem Namen "%{collection}" gefunden.
     success: Sammlung erfolgreich auf "%{collection}" umgestellt
-    error: "Fehler: Wechsel zur Szenen-Sammlung „%{collection}“ nicht möglich"
+    error: Fehler: Wechsel zur Szenen-Sammlung "%{collection}" nicht möglich
     note: "Hinweis: Das Stream-Profil wird nur geändert, wenn nicht gestreamt wird"
